@@ -30,8 +30,18 @@ export default async (req, context) => {
                 "end": "19:00:00.000"
               }
             ],
+
+
             "sections": [
-              {
+                
+              {"menuInfo": {
+    "name": "My Restaurant Menu",
+    "description": "A description of the menu",
+    "version": "1.0"
+  },
+
+
+
                 "external_id": "79ffafb1",
                 "name": "APPETIZERS",
                 "description": "APPETIZERS",
