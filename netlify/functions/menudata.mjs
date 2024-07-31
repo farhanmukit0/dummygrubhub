@@ -30,18 +30,8 @@ export default async (req, context) => {
                 "end": "19:00:00.000"
               }
             ],
-
-
             "sections": [
-                
-              {"menuInfo": {
-    "name": "My Restaurant Menu",
-    "description": "A description of the menu",
-    "version": "1.0"
-  },
-
-
-
+              {
                 "external_id": "79ffafb1",
                 "name": "APPETIZERS",
                 "description": "APPETIZERS",
@@ -189,7 +179,7 @@ export default async (req, context) => {
                           {
                             "external_id": "7a13d3f1",
                             "name": "MEDIUM WELL",
-                            "description": "**MED WELL**",
+                            "description": "**MED WEL**",
                             "price": 0.0,
                             "calorie_content": "100",
                             "sized_prices": []
@@ -210,7 +200,7 @@ export default async (req, context) => {
               }
             ]
           }
-        ]};
+        ]}
   
     return new Response(JSON.stringify(menuData), {
       headers: { "Content-Type": "application/json" }
