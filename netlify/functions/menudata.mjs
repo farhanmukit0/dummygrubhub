@@ -953,7 +953,13 @@ export default async (req, context) => {
           }
         ],  "normalized_menu": true,
         "ingestion_type": "NORMALIZED",
-        "last_updated": "2023-07-15T15:47:22.124417"
+        "last_updated": "2023-07-15T15:47:22.124417",
+        "info": {
+    "name": "My Restaurant Menu",
+    "description": "A description of the menu",
+    "version": "1.0"
+  }
+        
       };
   
     return new Response(JSON.stringify(menuData), {
